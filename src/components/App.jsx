@@ -31,7 +31,7 @@ export const App = () => {
   //     setContacts(parsedList);
   //   }
   // }, []);
-
+  //
   const ChangeFilter = e => {
     dispatch(handleChangeFilter(e.target.value));
   };
